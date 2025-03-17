@@ -7,11 +7,11 @@ class FlutterBunny < Formula
     on_macos do
       on_arm do
         url "https://github.com/demola234/flutter_bunny_cli/releases/download/v1.0.6/flutter_bunny-v1.0.0-macos-arm64.tar.gz"
-        sha256 "ed3a59879720749306dec5eb1417bb2f8817a923d48d8da488426c7a791bd05c"
+        sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       end
       on_intel do
         url "https://github.com/demola234/flutter_bunny_cli/releases/download/v1.0.6/flutter_bunny-v1.0.0-macos-x64.tar.gz"
-        sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+        sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       end
     end
   
