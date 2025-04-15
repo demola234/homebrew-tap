@@ -2,16 +2,16 @@ class FlutterBunny < Formula
   desc "Flutter Bunny: A CLI tool for Flutter development"
   homepage "https://github.com/demola234/flutter_bunny_cli"
   license "MIT"
-  version "1.0.6-beta.9"
+  version "1.0.7-beta.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/demola234/flutter_bunny_cli/archive/refs/tags/v1.0.6-beta.9.tar.gz"
-      sha256 "185e0e77e82dd1ebbb90efeac04abfd59c5ef4a771c40fb3990fc6ff74587007"
+      url "https://github.com/demola234/flutter_bunny_cli/archive/refs/tags/v1.0.7-beta.2.tar.gz"
+      sha256 "e609ca218e48166e5d3bda080201b9af35eb355fff5fbdd7197656631e5b280c"
     end
     on_intel do
-      url "https://github.com/demola234/flutter_bunny_cli/archive/refs/tags/v1.0.6-beta.9.tar.gz"
-      sha256 "185e0e77e82dd1ebbb90efeac04abfd59c5ef4a771c40fb3990fc6ff74587007"
+      url "https://github.com/demola234/flutter_bunny_cli/archive/refs/tags/v1.0.7-beta.2.tar.gz"
+      sha256 "e609ca218e48166e5d3bda080201b9af35eb355fff5fbdd7197656631e5b280c"
     end
   end
 
