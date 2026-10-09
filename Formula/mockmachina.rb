@@ -1,28 +1,28 @@
 class Mockmachina < Formula
   desc "Mock HTTP APIs from contract files in your repository"
   homepage "https://github.com/demola234/tiny-tools/tree/main/mock_machina"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.1/mockmachina_0.1.1_darwin_arm64.tar.gz"
-      sha256 "c86d4ccf608ed8c51fe9ae508c77e05dd14854b80ce5cf37cc07dd336f57a493"
+      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.2/mockmachina_0.1.2_darwin_arm64.tar.gz"
+      sha256 "e035e4959be82d0a8ccab9661bc415b3f6707744bddcb45a2a169a9c996fceeb"
     end
     on_intel do
-      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.1/mockmachina_0.1.1_darwin_amd64.tar.gz"
-      sha256 "0e8ce6e7b315b69187a5f196ffded6135f2cdabf52754f06ffc2d9947089672e"
+      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.2/mockmachina_0.1.2_darwin_amd64.tar.gz"
+      sha256 "a5271ebb275ddd15027e9e9176e1d4e1a4dd688b02fec810ef3bc3c195efe0c9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.1/mockmachina_0.1.1_linux_arm64.tar.gz"
-      sha256 "611a804b2dbddae0f8dfb3f17541ac6cd89f03423f43c450b4b507c397ceb513"
+      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.2/mockmachina_0.1.2_linux_arm64.tar.gz"
+      sha256 "1f271c2d1ba65658c0696ff8c74e8f25a8d6c56bfa707e0d204861fdd951aa60"
     end
     on_intel do
-      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.1/mockmachina_0.1.1_linux_amd64.tar.gz"
-      sha256 "c55b28d210a8d658150f56a588526e8e84367dbce1ddc92324593ff58a939f6c"
+      url "https://github.com/demola234/tiny-tools/releases/download/mock_machina/v0.1.2/mockmachina_0.1.2_linux_amd64.tar.gz"
+      sha256 "7e99e47edf5175fa00d13ba9a753b1a196e96d82d319abc8288bf4de72c5bea9"
     end
   end
 
